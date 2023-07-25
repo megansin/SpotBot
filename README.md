@@ -1,6 +1,6 @@
 # SpotBot: Fake Yelp review analyzer
 
-Code files are Jupyter Notebook files and were developed in Amazon Sagemaker. Modification to remove Sagemaker packages is needed if running in another environment.
+Code files are Jupyter Notebook files and were developed in Amazon Sagemaker. Modification to remove Sagemaker packages is needed if running in another environment. Labeled dataset must also be obtained by contacting professors listed on our website: https://seamussullivan.github.io/CS539-SpotBot-Website/. Data files are not stored in this repository due to privacy concerns.
 
 Spotbot is a project that **attempts** to classify Yelp reviews as either fraudulent or valid. This is done using a two-model process.
 
