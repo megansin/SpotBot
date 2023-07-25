@@ -6,7 +6,7 @@ Spotbot is a project that **attempts** to classify yelp reviews as either fraudu
 2. The row's "text" column is fed through the tokenizer and encoded for prediction using our trained BERT model.
 3. The BERT model is used to classify the text as either valid or fraudulent. This value is stored as the 'BERT_flag' column
 
-## *NOT COMPLETE*
+## *TO BE COMPLETED IN THE FUTURE*
 4. The row now contains a set of categorical attributes (stars, funny, useful,... etc) in addition to the BERT_flag. This updated row is now passed to Autogluon.
 5. Autogluon uses a weighted set of models to classify the row as either valid or fraudulent.
 
